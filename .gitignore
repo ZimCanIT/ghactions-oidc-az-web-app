@@ -1,0 +1,14 @@
+# Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# Crash log files
+crash.log
+crash.*.log
+# excluding .tfvars containing sensitive data
+*.tfvars
+# include tfplan files to ignore the plan output of command: terraform plan -out=config1.tfplan
+*.tfplan
+# terraform lock file
+*.hcl
