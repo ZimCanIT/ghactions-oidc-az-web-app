@@ -46,7 +46,7 @@ GitHub actions workflow secrets set in the repository:
 
 You'll need to ensure the `microsoft.insights` resource provider is registered. Run the following command in Azure cloud shell: `az provider register --namespace 'Microsoft.Insights'`
 
-## Fulfillment of tasks from [original lab]()
+## Fulfillment of tasks from [original lab](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_09a-Implement_Web_Apps.md)
 
 * Tasks 1 and 2 are deployed wholly by terraform. Reference the web app plan and app service deployed in `infra/web-app.tf`
 
